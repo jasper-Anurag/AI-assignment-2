@@ -336,4 +336,3 @@ The modifications work as required:
 2. **Q1B**: Fitness function now counts Conv and FC params separately with different weights (0.0008 for conv, 0.0002 for FC), which better reflects the actual computational cost
 
 The changes are minimal - only the selection and fitness evaluation methods were modified, plus some logging added. Everything else in the codebase remains unchanged.
-
