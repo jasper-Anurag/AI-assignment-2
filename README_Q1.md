@@ -50,5 +50,3 @@ See `Q1_Report.md` for detailed documentation including:
 - Modified code portions
 - Mathematical justifications
 - Weight selection rationale
-
-
