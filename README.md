@@ -1,2 +1,2 @@
-# AI-assignment-2
-Solution to question 1.
+# nas-ga-basic
+Basic demo of Neural Architecture Search (NAS) using Genetic Algorithm (GA)
