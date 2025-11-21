@@ -1,0 +1,229 @@
+Using device: gpu
+Starting with 10 Population:
+[Arch(conv=1, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=1, acc=0.0000)]
+
+
+============================================================
+Generation 1/5
+============================================================
+Evaluating architecture 1/10... Fitness: -420.719000, Accuracy: 0.531000, Conv Params: 1920, FC Params: 2098570, Conv Penalty: 1.536000, FC Penalty: 419.714000, Total Penalty: 421.250000
+Evaluating architecture 2/10... Fitness: -423.184600, Accuracy: 0.523000, Conv Params: 4992, FC Params: 2098570, Conv Penalty: 3.993600, FC Penalty: 419.714000, Total Penalty: 423.707600
+Evaluating architecture 3/10... Fitness: -111.125400, Accuracy: 0.659000, Conv Params: 73840, FC Params: 263562, Conv Penalty: 59.072000, FC Penalty: 52.712400, Total Penalty: 111.784400
+Evaluating architecture 4/10... Fitness: -1682.282600, Accuracy: 0.561000, Conv Params: 4992, FC Params: 8394250, Conv Penalty: 3.993600, FC Penalty: 1678.850000, Total Penalty: 1682.843600
+Evaluating architecture 5/10... Fitness: -712.782000, Accuracy: 0.628000, Conv Params: 825520, FC Params: 264970, Conv Penalty: 660.416000, FC Penalty: 52.994000, Total Penalty: 713.410000
+Evaluating architecture 6/10... Fitness: -1084.550600, Accuracy: 0.661000, Conv Params: 306528, FC Params: 4199946, Conv Penalty: 245.222400, FC Penalty: 839.989200, Total Penalty: 1085.211600
+Evaluating architecture 7/10... Fitness: -136.408800, Accuracy: 0.630000, Conv Params: 105584, FC Params: 262858, Conv Penalty: 84.467200, FC Penalty: 52.571600, Total Penalty: 137.038800
+Evaluating architecture 8/10... Fitness: -468.138400, Accuracy: 0.574000, Conv Params: 60896, FC Params: 2099978, Conv Penalty: 48.716800, FC Penalty: 419.995600, Total Penalty: 468.712400
+Evaluating architecture 9/10... Fitness: -105.276400, Accuracy: 0.492000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+Evaluating architecture 10/10... Fitness: -108.331400, Accuracy: 0.509000, Conv Params: 4800, FC Params: 525002, Conv Penalty: 3.840000, FC Penalty: 105.000400, Total Penalty: 108.840400
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=1, acc=0.4920)
+
+Best overall: Arch(conv=1, acc=0.4920)
+
+Performing roulette-wheel selection of total population: 10 ...
+
+============================================================
+Roulette-Wheel Selection - Fitness and Probabilities
+============================================================
+Arch 1: Fitness=-105.276400, Relative=0.100000, Cumulative=0.100000
+Arch 2: Fitness=-108.331400, Relative=0.100000, Cumulative=0.200000
+Arch 3: Fitness=-111.125400, Relative=0.100000, Cumulative=0.300000
+Arch 4: Fitness=-136.408800, Relative=0.100000, Cumulative=0.400000
+Arch 5: Fitness=-420.719000, Relative=0.100000, Cumulative=0.500000
+Arch 6: Fitness=-423.184600, Relative=0.100000, Cumulative=0.600000
+Arch 7: Fitness=-468.138400, Relative=0.100000, Cumulative=0.700000
+Arch 8: Fitness=-712.782000, Relative=0.100000, Cumulative=0.800000
+Arch 9: Fitness=-1084.550600, Relative=0.100000, Cumulative=0.900000
+Arch 10: Fitness=-1682.282600, Relative=0.100000, Cumulative=1.000000
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=1, acc=0.4920), Arch(conv=1, acc=0.5090), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=3, acc=0.0000)]
+
+============================================================
+Generation 2/5
+============================================================
+Evaluating architecture 1/10... Fitness: -105.243400, Accuracy: 0.525000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+Evaluating architecture 2/10... Fitness: -108.304400, Accuracy: 0.536000, Conv Params: 4800, FC Params: 525002, Conv Penalty: 3.840000, FC Penalty: 105.000400, Total Penalty: 108.840400
+Evaluating architecture 3/10... Fitness: -454.598200, Accuracy: 0.623000, Conv Params: 306528, FC Params: 1049994, Conv Penalty: 245.222400, FC Penalty: 209.998800, Total Penalty: 455.221200
+Evaluating architecture 4/10... Fitness: -1084.562600, Accuracy: 0.649000, Conv Params: 306528, FC Params: 4199946, Conv Penalty: 245.222400, FC Penalty: 839.989200, Total Penalty: 1085.211600
+Evaluating architecture 5/10... Fitness: -299.470800, Accuracy: 0.640000, Conv Params: 112288, FC Params: 1051402, Conv Penalty: 89.830400, FC Penalty: 210.280400, Total Penalty: 300.110800
+Evaluating architecture 6/10... Fitness: -923.740200, Accuracy: 0.601000, Conv Params: 105440, FC Params: 4199946, Conv Penalty: 84.352000, FC Penalty: 839.989200, Total Penalty: 924.341200
+Evaluating architecture 7/10... Fitness: -829.107800, Accuracy: 0.667000, Conv Params: 511520, FC Params: 2102794, Conv Penalty: 409.216000, FC Penalty: 420.558800, Total Penalty: 829.774800
+Evaluating architecture 8/10... Fitness: -64.787800, Accuracy: 0.635000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 9/10... Fitness: -1202.813600, Accuracy: 0.670000, Conv Params: 454368, FC Params: 4199946, Conv Penalty: 363.494400, FC Penalty: 839.989200, Total Penalty: 1203.483600
+Evaluating architecture 10/10... Fitness: -64.781800, Accuracy: 0.641000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6410)
+
+Best overall: Arch(conv=3, acc=0.6410)
+
+Performing roulette-wheel selection of total population: 10 ...
+
+============================================================
+Roulette-Wheel Selection - Fitness and Probabilities
+============================================================
+Arch 1: Fitness=-64.781800, Relative=0.100000, Cumulative=0.100000
+Arch 2: Fitness=-64.787800, Relative=0.100000, Cumulative=0.200000
+Arch 3: Fitness=-105.243400, Relative=0.100000, Cumulative=0.300000
+Arch 4: Fitness=-108.304400, Relative=0.100000, Cumulative=0.400000
+Arch 5: Fitness=-299.470800, Relative=0.100000, Cumulative=0.500000
+Arch 6: Fitness=-454.598200, Relative=0.100000, Cumulative=0.600000
+Arch 7: Fitness=-829.107800, Relative=0.100000, Cumulative=0.700000
+Arch 8: Fitness=-923.740200, Relative=0.100000, Cumulative=0.800000
+Arch 9: Fitness=-1084.562600, Relative=0.100000, Cumulative=0.900000
+Arch 10: Fitness=-1202.813600, Relative=0.100000, Cumulative=1.000000
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6410), Arch(conv=3, acc=0.6350), Arch(conv=3, acc=0.6410), Arch(conv=1, acc=0.5250), Arch(conv=1, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=3, acc=0.6230), Arch(conv=3, acc=0.6490)]
+
+============================================================
+Generation 3/5
+============================================================
+Evaluating architecture 1/10... Fitness: -64.786800, Accuracy: 0.636000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 2/10... Fitness: -64.795800, Accuracy: 0.627000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 3/10... Fitness: -64.784800, Accuracy: 0.638000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 4/10... Fitness: -105.255400, Accuracy: 0.513000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+Evaluating architecture 5/10... Fitness: -105.256400, Accuracy: 0.512000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+Evaluating architecture 6/10... Fitness: -80.569000, Accuracy: 0.649000, Conv Params: 35808, FC Params: 262858, Conv Penalty: 28.646400, FC Penalty: 52.571600, Total Penalty: 81.218000
+Evaluating architecture 7/10... Fitness: -105.237400, Accuracy: 0.531000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+Evaluating architecture 8/10... Fitness: -105.255400, Accuracy: 0.513000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+Evaluating architecture 9/10... Fitness: -454.565200, Accuracy: 0.656000, Conv Params: 306528, FC Params: 1049994, Conv Penalty: 245.222400, FC Penalty: 209.998800, Total Penalty: 455.221200
+Evaluating architecture 10/10... Fitness: -1084.569600, Accuracy: 0.642000, Conv Params: 306528, FC Params: 4199946, Conv Penalty: 245.222400, FC Penalty: 839.989200, Total Penalty: 1085.211600
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6380)
+
+Best overall: Arch(conv=3, acc=0.6410)
+
+Performing roulette-wheel selection of total population: 10 ...
+
+============================================================
+Roulette-Wheel Selection - Fitness and Probabilities
+============================================================
+Arch 1: Fitness=-64.784800, Relative=0.100000, Cumulative=0.100000
+Arch 2: Fitness=-64.786800, Relative=0.100000, Cumulative=0.200000
+Arch 3: Fitness=-64.795800, Relative=0.100000, Cumulative=0.300000
+Arch 4: Fitness=-80.569000, Relative=0.100000, Cumulative=0.400000
+Arch 5: Fitness=-105.237400, Relative=0.100000, Cumulative=0.500000
+Arch 6: Fitness=-105.255400, Relative=0.100000, Cumulative=0.600000
+Arch 7: Fitness=-105.255400, Relative=0.100000, Cumulative=0.700000
+Arch 8: Fitness=-105.256400, Relative=0.100000, Cumulative=0.800000
+Arch 9: Fitness=-454.565200, Relative=0.100000, Cumulative=0.900000
+Arch 10: Fitness=-1084.569600, Relative=0.100000, Cumulative=1.000000
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6380), Arch(conv=3, acc=0.6360), Arch(conv=1, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000)]
+
+============================================================
+Generation 4/5
+============================================================
+Evaluating architecture 1/10... Fitness: -64.791800, Accuracy: 0.631000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 2/10... Fitness: -64.794800, Accuracy: 0.628000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 3/10... Fitness: -213.357600, Accuracy: 0.494000, Conv Params: 4992, FC Params: 1049290, Conv Penalty: 3.993600, FC Penalty: 209.858000, Total Penalty: 213.851600
+Evaluating architecture 4/10... Fitness: -105.242400, Accuracy: 0.526000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+Evaluating architecture 5/10... Fitness: -454.581200, Accuracy: 0.640000, Conv Params: 306528, FC Params: 1049994, Conv Penalty: 245.222400, FC Penalty: 209.998800, Total Penalty: 455.221200
+Evaluating architecture 6/10... Fitness: -64.779800, Accuracy: 0.643000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 7/10... Fitness: -454.581200, Accuracy: 0.640000, Conv Params: 306528, FC Params: 1049994, Conv Penalty: 245.222400, FC Penalty: 209.998800, Total Penalty: 455.221200
+Evaluating architecture 8/10... Fitness: -64.793800, Accuracy: 0.629000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 9/10... Fitness: -454.565200, Accuracy: 0.656000, Conv Params: 306528, FC Params: 1049994, Conv Penalty: 245.222400, FC Penalty: 209.998800, Total Penalty: 455.221200
+Evaluating architecture 10/10... Fitness: -64.785800, Accuracy: 0.637000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6430)
+
+Best overall: Arch(conv=3, acc=0.6430)
+
+Performing roulette-wheel selection of total population: 10 ...
+
+============================================================
+Roulette-Wheel Selection - Fitness and Probabilities
+============================================================
+Arch 1: Fitness=-64.779800, Relative=0.100000, Cumulative=0.100000
+Arch 2: Fitness=-64.785800, Relative=0.100000, Cumulative=0.200000
+Arch 3: Fitness=-64.791800, Relative=0.100000, Cumulative=0.300000
+Arch 4: Fitness=-64.793800, Relative=0.100000, Cumulative=0.400000
+Arch 5: Fitness=-64.794800, Relative=0.100000, Cumulative=0.500000
+Arch 6: Fitness=-105.242400, Relative=0.100000, Cumulative=0.600000
+Arch 7: Fitness=-213.357600, Relative=0.100000, Cumulative=0.700000
+Arch 8: Fitness=-454.565200, Relative=0.100000, Cumulative=0.800000
+Arch 9: Fitness=-454.581200, Relative=0.100000, Cumulative=0.900000
+Arch 10: Fitness=-454.581200, Relative=0.100000, Cumulative=1.000000
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6430), Arch(conv=3, acc=0.6370), Arch(conv=3, acc=0.6370), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.6280), Arch(conv=3, acc=0.6280), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=1, acc=0.0000)]
+
+============================================================
+Generation 5/5
+============================================================
+Evaluating architecture 1/10... Fitness: -64.777800, Accuracy: 0.645000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 2/10... Fitness: -64.783800, Accuracy: 0.639000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 3/10... Fitness: -64.778800, Accuracy: 0.644000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 4/10... Fitness: -310.396000, Accuracy: 0.646000, Conv Params: 126304, FC Params: 1049994, Conv Penalty: 101.043200, FC Penalty: 209.998800, Total Penalty: 311.042000
+Evaluating architecture 5/10... Fitness: -64.782800, Accuracy: 0.640000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 6/10... Fitness: -64.790800, Accuracy: 0.632000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 7/10... Fitness: -64.789800, Accuracy: 0.633000, Conv Params: 48656, FC Params: 132490, Conv Penalty: 38.924800, FC Penalty: 26.498000, Total Penalty: 65.422800
+Evaluating architecture 8/10... Fitness: -454.589200, Accuracy: 0.632000, Conv Params: 306528, FC Params: 1049994, Conv Penalty: 245.222400, FC Penalty: 209.998800, Total Penalty: 455.221200
+Evaluating architecture 9/10... Fitness: -224.998200, Accuracy: 0.527000, Conv Params: 19584, FC Params: 1049290, Conv Penalty: 15.667200, FC Penalty: 209.858000, Total Penalty: 225.525200
+Evaluating architecture 10/10... Fitness: -105.267400, Accuracy: 0.501000, Conv Params: 960, FC Params: 525002, Conv Penalty: 0.768000, FC Penalty: 105.000400, Total Penalty: 105.768400
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6450)
+
+Best overall: Arch(conv=3, acc=0.6450)
+
+Performing roulette-wheel selection of total population: 10 ...
+
+============================================================
+Roulette-Wheel Selection - Fitness and Probabilities
+============================================================
+Arch 1: Fitness=-64.777800, Relative=0.100000, Cumulative=0.100000
+Arch 2: Fitness=-64.778800, Relative=0.100000, Cumulative=0.200000
+Arch 3: Fitness=-64.782800, Relative=0.100000, Cumulative=0.300000
+Arch 4: Fitness=-64.783800, Relative=0.100000, Cumulative=0.400000
+Arch 5: Fitness=-64.789800, Relative=0.100000, Cumulative=0.500000
+Arch 6: Fitness=-64.790800, Relative=0.100000, Cumulative=0.600000
+Arch 7: Fitness=-105.267400, Relative=0.100000, Cumulative=0.700000
+Arch 8: Fitness=-224.998200, Relative=0.100000, Cumulative=0.800000
+Arch 9: Fitness=-310.396000, Relative=0.100000, Cumulative=0.900000
+Arch 10: Fitness=-454.589200, Relative=0.100000, Cumulative=1.000000
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6450), Arch(conv=3, acc=0.6440), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=2, acc=0.5270), Arch(conv=3, acc=0.6440)]
+
+============================================================
+FINAL BEST ARCHITECTURE
+============================================================
+Genes: {'num_conv': 3, 'conv_configs': [{'filters': 64, 'kernel_size': 5}, {'filters': 32, 'kernel_size': 3}, {'filters': 16, 'kernel_size': 7}], 'pool_type': 'max', 'activation': 'relu', 'fc_units': 128}
+Accuracy: 0.6450
+Fitness: -64.777800
+Conv Params: 48656, FC Params: 132490
+Conv Penalty: 38.924800, FC Penalty: 26.498000
+
+Total parameters: 181,146
+
+Model architecture:
+CNN(
+  (features): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(32, 16, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3))
+    (8): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (classifier): Sequential(
+    (0): Flatten(start_dim=1, end_dim=-1)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+    (2): ReLU(inplace=True)
+    (3): Dropout(p=0.5, inplace=False)
+    (4): Linear(in_features=128, out_features=10, bias=True)
+  )
+)
